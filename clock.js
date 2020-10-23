@@ -18,3 +18,7 @@ function hourRotation(hours, minutes) {
     return degRotation;
 }
 
+function tick() {
+    setInterval(() => console.log("a"), 1000)
+}
+tick()
